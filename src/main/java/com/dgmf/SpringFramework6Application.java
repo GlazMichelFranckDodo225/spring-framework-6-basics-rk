@@ -7,21 +7,19 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class SpringFramework6Application {
 	public static void main(String[] args) {
-		// BinarySearchImpl binarySearch = new BinarySearchImpl();
-		// BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgorithm());
-		// BinarySearchImpl binarySearch = new BinarySearchImpl(new QuickSortAlgorithm());
-		// int result = binarySearch.binarySearch(new int[] {12, 4, 6}, 3);
-
-		// System.out.println(result);
-
 		ApplicationContext applicationContext =
 				SpringApplication.run(SpringFramework6Application.class, args);
+
+		// By Default ==> Scope = Singleton
 		BinarySearchImpl binarySearch = applicationContext.getBean(BinarySearchImpl.class);
+		BinarySearchImpl binarySearch2 = applicationContext.getBean(BinarySearchImpl.class);
+
+		System.out.println(binarySearch); // com.dgmf.BinarySearchImpl@6f099cef
+		System.out.println(binarySearch2); // com.dgmf.BinarySearchImpl@6f099cef
+
 		int result = binarySearch.binarySearch(new int[] {12, 4, 6}, 3);
 
 		System.out.println(result);
-		// com.dgmf.BubbleSortAlgorithm@1b32cd16
-		// 3
 	}
 
 }

@@ -10,12 +10,12 @@ public class SpringFramework6Application {
 		ApplicationContext applicationContext =
 				SpringApplication.run(SpringFramework6Application.class, args);
 
-		// By Default ==> Scope = Singleton
+		// Now Scope = Prototype
 		BinarySearchImpl binarySearch = applicationContext.getBean(BinarySearchImpl.class);
 		BinarySearchImpl binarySearch2 = applicationContext.getBean(BinarySearchImpl.class);
 
-		System.out.println(binarySearch); // com.dgmf.BinarySearchImpl@6f099cef
-		System.out.println(binarySearch2); // com.dgmf.BinarySearchImpl@6f099cef
+		System.out.println(binarySearch); // com.dgmf.BinarySearchImpl@4690f583
+		System.out.println(binarySearch2); // com.dgmf.BinarySearchImpl@59712875
 
 		int result = binarySearch.binarySearch(new int[] {12, 4, 6}, 3);
 

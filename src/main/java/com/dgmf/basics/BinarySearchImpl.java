@@ -1,4 +1,4 @@
-package com.dgmf;
+package com.dgmf.basics;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

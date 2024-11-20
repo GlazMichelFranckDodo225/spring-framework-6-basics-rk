@@ -1,15 +1,15 @@
-package com.dgmf;
+package com.dgmf.basics;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 // @Primary
-@Qualifier("bubble")
-public class BubbleSortAlgorithm implements SortAlgorithm {
+@Qualifier("quick")
+public class QuickSortAlgorithm implements SortAlgorithm {
     @Override
     public int[] sort(int[] numbers) {
-        // Logic for Bubble Sort
+        // Logic for Quick Sort
 
         return numbers;
     }

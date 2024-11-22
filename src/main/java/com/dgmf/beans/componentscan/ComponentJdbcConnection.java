@@ -1,4 +1,4 @@
-package com.dgmf.scope;
+package com.dgmf.beans.componentscan;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
         value = ConfigurableBeanFactory.SCOPE_PROTOTYPE,
         proxyMode = ScopedProxyMode.TARGET_CLASS
 )
-public class JdbcConnection {
-    public JdbcConnection() {
+public class ComponentJdbcConnection {
+    public ComponentJdbcConnection() {
         System.out.println("JdbcConnection()");
     }
 }

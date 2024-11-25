@@ -1,5 +1,5 @@
 package com.dgmf;
-
+/*
 import com.dgmf.beans.componentscan.ComponentPersonDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,4 +20,4 @@ public class SpringFramework6ComponentScanApplication {
 		LOGGER.info("{}", componentPersonDAO);
 	}
 
-}
+}*/

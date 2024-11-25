@@ -1,5 +1,6 @@
 package com.dgmf;
 
+/*
 import com.dgmf.beans.cdi.SomeCdiBusiness;
 import com.dgmf.beans.scope.PersonDAO;
 import org.slf4j.Logger;
@@ -22,3 +23,4 @@ public class SpringFramework6CdiApplication {
 	}
 
 }
+*/

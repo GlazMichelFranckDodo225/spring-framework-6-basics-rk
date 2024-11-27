@@ -19,7 +19,9 @@ public class SpringFramework6Application {
 			System.out.println(binarySearch);
 			System.out.println(binarySearch2);
 
-			int result = binarySearch.binarySearch(new int[] {12, 4, 6}, 3);
+			int result = binarySearch.binarySearch(
+					new int[] {12, 4, 6}, 3
+			);
 
 			System.out.println(result);
 		}

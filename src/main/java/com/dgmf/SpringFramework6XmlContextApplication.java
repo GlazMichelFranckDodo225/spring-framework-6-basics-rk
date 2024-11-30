@@ -17,6 +17,7 @@ public class SpringFramework6XmlContextApplication {
 			LOGGER.info(
 					"All Beans Loaded ==> {}",
 					// xmlApplicationContext.getBeanDefinitionCount()
+					// [xmlJdbcConnection, xmlPersonDAO]
                     (Object) xmlApplicationContext.getBeanDefinitionNames()
             );
 

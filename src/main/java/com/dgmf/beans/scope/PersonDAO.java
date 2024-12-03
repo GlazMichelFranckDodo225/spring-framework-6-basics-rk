@@ -2,8 +2,10 @@ package com.dgmf.beans.scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+// @Component
+@Repository
 // @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class PersonDAO {
     @Autowired

@@ -2,8 +2,10 @@ package com.dgmf.beans.basics;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+// @Component
+@Service
 // @Primary
 @Qualifier("bubble")
 public class BubbleSortAlgorithm implements SortAlgorithm {

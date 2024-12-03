@@ -1,4 +1,4 @@
-package com.dgmf.beans.xmlconfig;
+package com.dgmf.xmlconfig;
 
 public class XmlPersonDAO {
     XmlJdbcConnection xmlJdbcConnection;

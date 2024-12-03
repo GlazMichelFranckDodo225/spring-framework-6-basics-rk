@@ -19,9 +19,9 @@
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="xmlJdbcConnection" class="com.dgmf.beans.xmlconfig.XmlJdbcConnection"/>
+    <bean id="xmlJdbcConnection" class="com.dgmf.xmlconfig.XmlJdbcConnection"/>
 
-    <bean id="xmlPersonDAO" class="com.dgmf.beans.xmlconfig.XmlPersonDAO">
+    <bean id="xmlPersonDAO" class="com.dgmf.xmlconfig.XmlPersonDAO">
         <property name="xmlJdbcConnection" ref="xmlJdbcConnection" />
     </bean>
 

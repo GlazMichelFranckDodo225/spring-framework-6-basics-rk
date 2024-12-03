@@ -1,6 +1,6 @@
 package com.dgmf;
 
-import com.dgmf.beans.basics.BinarySearchImpl;
+import com.dgmf.basics.BinarySearchImpl;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

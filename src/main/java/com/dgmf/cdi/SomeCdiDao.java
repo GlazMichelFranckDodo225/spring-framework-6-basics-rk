@@ -1,4 +1,4 @@
-package com.dgmf.beans.cdi;
+package com.dgmf.cdi;
 
 import org.springframework.stereotype.Component;
 

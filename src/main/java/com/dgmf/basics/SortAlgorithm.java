@@ -1,4 +1,4 @@
-package com.dgmf.beans.basics;
+package com.dgmf.basics;
 
 public interface SortAlgorithm {
     int[] sort(int[] numbers);
